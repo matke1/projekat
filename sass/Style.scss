@@ -177,6 +177,24 @@ body{
     }
 
 
+    .intro{
+      border:1px solid black;
+      margin:10px auto;
+      background: black;
+      opacity: $opacity;
+      color: $color;
+      padding:10px;
+    }
+
+    .feature{
+      border:1px solid black;
+      margin:10px auto;
+      background: none;
+      color: $color;
+      padding:10px;
+    }
+
+
   }
 
 }

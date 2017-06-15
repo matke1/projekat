@@ -35,6 +35,19 @@ body {
           font-family: helvetic, sans-sefir; }
         body header h2 {
           color: white;
-          font-family: helvetic, sans-sefir; } }
+          font-family: helvetic, sans-sefir; }
+      body .intro {
+        border: 1px solid black;
+        margin: 10px auto;
+        background: black;
+        opacity: 0.5;
+        color: white;
+        padding: 10px; }
+      body .feature {
+        border: 1px solid black;
+        margin: 10px auto;
+        background: none;
+        color: white;
+        padding: 10px; } }
 
 /*# sourceMappingURL=Style.css.map */
