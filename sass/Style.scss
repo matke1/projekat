@@ -7,7 +7,6 @@ $font-family: helvetic, sans-sefir;
 
 
 
-
 // Breakpoints
 
 @function strip-units($value){
@@ -119,6 +118,8 @@ $breakpoints: (
 
 
 body{
+
+
   background-color: $backgorund;
   header{
     border:2px solid black;
@@ -136,66 +137,64 @@ body{
 
   .grad{
 
-    .intro{
-      border:1px solid black;
-      margin:10px auto;
-      background: black;
-      opacity: $opacity;
-      color: $color;
-      padding:10px;
+
+%pasusi{
+  border:1px solid black;
+  margin:10px auto;
+  background: black;
+  opacity: $opacity;
+  color: $color;
+  padding:10px;
+  width:40%;
+}
+
+    .intro {
+      @extend %pasusi;
+      float: left;
     }
 
     .feature{
-      border:1px solid black;
-      margin:10px auto;
-      background: black;
-      opacity: $opacity;
-      color: $color;
-      padding:10px;
+      @extend %pasusi;
+      float: right;
     }
   }
-
-
-
 
 
   @include bp(small){
 
     background-color: $backgorund;
-    header{
+    header {
       background-color: black;
       opacity: $opacity;
       padding: 10px;
-      h1{
+      h1 {
         color: $color;
         font-family: $font-family;
       }
-      h2{
+      h2 {
         color: $color;
         font-family: $font-family;
       }
     }
 
+    %pasusizaFon{
+      background:black;
+      padding:5px;
+      margin:5px auto;
+    }
 
     .intro{
-      border:1px solid black;
-      margin:10px auto;
-      background: black;
-      opacity: $opacity;
-      color: $color;
-      padding:10px;
-    }
 
+      @extend %pasusizaFon
+    }
     .feature{
-      border:1px solid black;
-      margin:10px auto;
-      background: none;
-      color: $color;
-      padding:10px;
+      @extend %pasusizaFon
     }
 
 
   }
 
 }
+
+
 
