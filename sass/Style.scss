@@ -119,7 +119,7 @@ $breakpoints: (
 
 
 body{
-
+  background-color: $backgorund;
   header{
     border:2px solid black;
     background-color: black;
@@ -135,11 +135,10 @@ body{
   }
 
   .grad{
-    background: $backgorund;
 
-    .intro%pasusi{
+    .intro{
       border:1px solid black;
-      margin:0 auto;
+      margin:10px auto;
       background: black;
       opacity: $opacity;
       color: $color;
@@ -147,9 +146,12 @@ body{
     }
 
     .feature{
-
-      @extend %pasusi;
-
+      border:1px solid black;
+      margin:10px auto;
+      background: black;
+      opacity: $opacity;
+      color: $color;
+      padding:10px;
     }
   }
 
