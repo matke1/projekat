@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,IAAI;EACF,SAAS,EAAC,IAAI;EACd,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,KAAK;EACZ,UAAK;IACH,KAAK,EAAC,KAAK;IACX,MAAM,EAAE,MAAM",
+"sources": ["NestoStyle.scss"],
+"names": [],
+"file": "NestoStyle.css"
+}

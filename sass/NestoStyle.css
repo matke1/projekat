@@ -1,0 +1,9 @@
+body {
+  font-size: 20px;
+  background: #234432;
+  color: white; }
+  body .main {
+    width: 960px;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=NestoStyle.css.map */

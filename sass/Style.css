@@ -1,0 +1,33 @@
+body header {
+  border: 2px solid black;
+  background-color: black; }
+  body header h1 {
+    color: white;
+    font-family: helvetic, sans-sefir; }
+  body header h2 {
+    color: white;
+    font-family: helvetic, sans-sefir; }
+body .grad {
+  background: lightgreen; }
+  body .grad .intro.feature {
+    border: 1px solid black;
+    margin: 0 auto;
+    background: black;
+    opacity: 0.74;
+    color: white;
+    padding: 10px; }
+@media only screen and (max-width: 40em) {
+  body {
+    background-color: lightgreen; }
+    body header {
+      background-color: black;
+      opacity: 0.74;
+      padding: 10px; }
+      body header h1 {
+        color: white;
+        font-family: helvetic, sans-sefir; }
+      body header h2 {
+        color: white;
+        font-family: helvetic, sans-sefir; } }
+
+/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,16 @@
+@import "singularitygs";
+@import "sass/grid";
+
+
+
+body{
+  font-size:20px;
+  background: #234432;
+  color: white;
+  .main{
+    width:960px;
+    margin: 0 auto;
+  }
+}
+
+
