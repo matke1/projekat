@@ -21,6 +21,13 @@ body {
     float: left; }
   body .grad .feature {
     float: right; }
+  body .grad a {
+    color: white;
+    font-family: helvetic, sans-sefir;
+    font-size: 25px; }
+    body .grad a:hover {
+      color: red;
+      text-decoration: none; }
   @media only screen and (max-width: 40em) {
     body {
       background-color: lightgreen; }

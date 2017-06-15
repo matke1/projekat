@@ -3,6 +3,9 @@ $color: white;
 $base-px-default: 16px !default;
 $opacity: 0.5;
 $font-family: helvetic, sans-sefir;
+$font-size: 25px;
+$colorHover: red;
+
 
 
 
@@ -146,6 +149,7 @@ body{
   color: $color;
   padding:10px;
   width:40%;
+
 }
 
     .intro {
@@ -156,6 +160,18 @@ body{
     .feature{
       @extend %pasusi;
       float: right;
+    }
+
+    a{
+
+      color:$color;
+      font-family: $font-family;
+      font-size:$font-size;
+
+      &:hover{
+        color:$colorHover;
+        text-decoration: none;
+      }
     }
   }
 
