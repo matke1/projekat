@@ -13,7 +13,7 @@ body .grad {
     border: 1px solid black;
     margin: 0 auto;
     background: black;
-    opacity: 0.74;
+    opacity: 0.5;
     color: white;
     padding: 10px; }
 @media only screen and (max-width: 40em) {
@@ -21,7 +21,7 @@ body .grad {
     background-color: lightgreen; }
     body header {
       background-color: black;
-      opacity: 0.74;
+      opacity: 0.5;
       padding: 10px; }
       body header h1 {
         color: white;

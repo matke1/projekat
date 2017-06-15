@@ -1,7 +1,7 @@
 $backgorund: lightgreen;
 $color: white;
 $base-px-default: 16px !default;
-$opacity: 0.74;
+$opacity: 0.5;
 $font-family: helvetic, sans-sefir;
 
 
@@ -159,7 +159,7 @@ body{
 
   @include bp(small){
 
-    background-color: lightgreen;
+    background-color: $backgorund;
     header{
       background-color: black;
       opacity: $opacity;
